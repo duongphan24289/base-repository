@@ -1,0 +1,34 @@
+{
+    "name": "mrphan/base-repository",
+    "description": "Base repository implement for lumen",
+    "keywords": [
+        "lumen",
+        "repository",
+        "base repository",
+        "repository pattern",
+        "eloquent",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Mr Phan",
+            "email": "duong.pv@neo-lab.vn"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "~5.1",
+        "illuminate/database": "~5.1",
+        "symfony/console": "^4.3",
+        "illuminate/console": "^5.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "mockery/mockery": "^0.9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseRepository\\": "src/"
+        }
+    }
+}
